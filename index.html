@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >  <!--Compatibility on all devices -->
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    
+    <title>VK's FunFest</title>
+</head>
+<body> 
+<!--Navigation Bar -->
+
+    <div class="navbar">
+    
+        <a href="#top" style="float:left;font-family:'Lucida Handwriting';"><b>FunFest 2022</b></a>
+    <b> <a href="#about" style="float:right;font-family:'Papyrus';">About</a>
+        <a href="#thisform" style="float:right;font-family:'Papyrus';">Register</a>
+        <a href="#events" style="float:right;font-family:'Papyrus';">Events</a>
+        <a href="#top" style="float:right;font-family:'Papyrus';">Home</a></b>
+    
+   </div>     
+  
+<!--Intro section-->
+    <div class="introbg">
+        <div class="transparentbg1">
+        <br><br><br><br>
+        <div class="animate" id="animate">
+        <p style="font-family:'Lucida Handwriting';font-size:55px;">FunFest 2022</p>
+        </div>
+        <h3>It's that time of the year again and we're back with this year's College fest ! </h3>
+        <h3>Come join us for this year's grand event !</h3><br><br><br><br><br><br>
+        </div>
+    </div>
+    
+    <br><br><br>
+
+<!--Event section -->
+<section class="events" id="events">
+    
+    <div class="bgevent">
+        <div class="transparentbg2">
+        <br><br>
+        <div class="animate2" id="animate2">
+            <p style="text-align:center;font-size:44px;font-family:'Lucida Handwriting';">FunFest Events</p>
+        </div>
+        <b><p style="text-align:center;font-size:35px;">It's gonna be a fun night !
+            <br style="line-height:10px">Get ready for some exciting events in store for you:</p>
+            <p style="text-align:center;font-size:24px;">|| MUSICAL NIGHT | DJ ||
+            <br><br>|| DANCE | FOOD ||<br><br>|| OPEN MIC ||</p> </b>
+       
+        <br><br><br>
+    </div>
+</div>
+</section>
+
+
+<!--Registration form section -->
+    <br><br><br>
+    <section class="thisform" id="thisform">
+        <div class="transparentbg3">
+        <br><br><br>
+        <div class="animate1" id="animate1">
+        <p style="text-align: center;font-size:42px;font-family:'Lucida Handwriting';">Hurry, Register Now!</p>
+    </div>
+    <h2 style="text-align: center;font-family:'Papyrus';">Be a part of our FunFest :)</h2>
+    <h2 style="text-align: center;font-family:'Papyrus';">By providing all your details below:</h2>
+    
+    <div class="myform"> 
+
+    <form action="#" name="form1" >
+
+        <div class="part1" id="part1">
+
+        <label for="name">Name:</label><br><br>
+        <input type="text" id="name" name="name" style="height:20px;width:250px;font-size:15px;font-family: 'Open Sans', sans-serif;" placeholder="Enter your full name here" required><br><br>
+        
+        <label for="email">Email:</label> <br><br>
+        <input type="email" id="email" name="email" style="height:20px;width:250px;font-size:15px;font-family: 'Open Sans', sans-serif;;" placeholder="Enter your email address here" required><br><br>
+
+        <label for="phone">Contact:</label><br><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" style="height:20px;width:250px;font-size:15px;font-family: 'Open Sans', sans-serif;" placeholder="Enter your 10 digit number here" required><br><br>
+        
+        
+        <p>Choose your year of study:<br></p>
+    </div>
+        
+            
+        <input type="radio" id="firstyear"  name="yearofstudy" value="firstyear">
+        <label for="firstyear">First Year</label><br>
+        
+        <input type="radio" id="secondyear"  name="yearofstudy" value="secondyear">
+        <label for="secondyear">Second Year</label><br>
+        
+        <input type="radio" id="thirdyear"  name="yearofstudy" value="thirdyear">
+        <label for="thirdyear">Third Year</label><br>
+       
+        <input type="radio" id="fourthyear"  name="yearofstudy" value="fourthyear">
+        <label for="fourthyear">Fourth Year</label>
+        
+    
+        <br><br><br>
+
+        <div class="submitbutton" id="submitbutton">
+
+            <input name="submit" type="submit" style="border-top-left-radius:10px;border-top-right-radius:10px;
+            border-bottom-right-radius:10px;border-bottom-left-radius:10px;height:50px;width:120px;
+            font-weight:700;font-size:20px;color:rgb(5, 5, 5);text-shadow: 3px 3px 5px rgb(236, 231, 231);
+            font-family: 'Open Sans', sans-serif;background-color: rgba(255, 255, 255, 0.76);" 
+            value="Submit" onclick="validate()">
+        </div>
+    </form>
+    <br><br><br><br><br><br>
+    </div>
+    </div>
+</section>
+
+<br><br><br>
+
+<!--About project website -->
+    <section class="about" id="about">
+        <div class="aboutbg">
+        <div class="transparentbg4" id="transparentbg3">
+        <br><br><br>
+        
+        <p style="font-size:42px;font-family:'Lucida Handwriting';">About this website :)</p>
+        
+        <p style="font-size:29px;font-family:'Papyrus';"><b>This website was created as the final project of a Web Development Internship.<br><br>
+        The project required the creation of a simple form on a website using HTML and CSS.<br>
+        My implementation of the project was in the form a college fest registration website.<br>
+        The concepts of HTML, CSS and JavaScript were used.</b></p><br>
+        <p style="font-family: 'Open Sans', sans-serif;">| &copy; | Project by Vaishnavi Krishnan | February, 2022 | </p>
+        
+        <br><br>
+        </div> 
+        </div>
+    </section>
+
+<!--JavaScript section -->
+    <script>
+    
+    //function to verify details entered in form
+    function validate() 
+    {
+      if( document.form1.name.value == "" || document.form1.email.value == "" ||  document.form1.phone.value == "" || 
+      (document.getElementById("firstyear").checked == false && document.getElementById("secondyear").checked == false &&
+      document.getElementById("thirdyear").checked == false &&  document.getElementById("fourthyear").checked == false) )
+      {
+         alert( "Please provide all the details !" );
+         return false;
+      }
+      else if( document.form1.name.value != "" && document.form1.email.value != "" &&  document.form1.phone.value != ""  &&
+      (document.getElementById("firstyear").checked == true || document.getElementById("secondyear").checked == true ||
+      document.getElementById("thirdyear").checked == true || document.getElementById("fourthyear").checked == true)) 
+        {   
+            var emailID = document.form1.email.value;
+            atpos = emailID.indexOf("@");
+            dotpos = emailID.lastIndexOf("."); //checks index of last occurred dot
+            var phoneno = document.form1.phone.value;
+            var name1=document.form1.name.value;
+            var alpha=/^[a-zA-Z\s]+$/; //only alphabets
+            var no=/^\d{10}$/; //only 10 digit numbers
+            if(alpha.test(name1)==false)
+            {
+                alert("Please enter a valid name!");
+                return false;
+            }
+            if (atpos < 1 || ( dotpos - atpos < 2 ) || dotpos== emailID.length - 1 ||atpos== emailID.length - 1) 
+            {
+                alert("Please enter a valid email ID !");
+                return false;
+            }
+            if(phoneno.match(no)==null)
+            {
+                alert( "Please provide a valid 10 digit mobile number !" ); 
+                return false;
+            }
+            else
+            {
+                alert( "Thank You for registering, Your details have been submitted :)" ); 
+                return true;
+            }
+        
+        }
+    return( true );
+   }
+
+    </script>   
+</body>
+</html>
