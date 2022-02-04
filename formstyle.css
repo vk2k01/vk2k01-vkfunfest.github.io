@@ -1,0 +1,182 @@
+body
+{
+    font-size: 18px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.introbg
+{
+    background-image:url(blur01.jpg);
+    background-repeat:none;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Papyrus';
+    font-size: 25px;
+    color: white;
+    text-align: center; 
+}
+
+
+@keyframes zoomeffect 
+{
+  0% 
+  {
+    transform: scale(1, 1);
+  }
+  50% 
+  {
+    transform: scale(1.2, 1.2);
+  }
+  100% 
+  {
+    transform: scale(1, 1);
+  }
+  
+} 
+
+.animate,.animate1,.animate2
+{
+    animation-name: zoomeffect;
+    animation-duration: 3.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.events
+{
+  color: white;
+  font-family: 'Papyrus';  
+}
+ 
+
+@keyframes image 
+{
+  0% 
+  {
+    background-image: url("blur4.jpg");
+  }
+  50% 
+  {
+    background-image: url("blur4.jpg");
+  }
+  100% 
+  {
+    background-image: url("blur5.jpg");
+  }
+}
+
+.bgevent
+{
+  background-image: url(blur4.jpg);
+  background-repeat:none;
+  background-size:cover;
+  background-attachment: fixed;
+  animation: image 3.4s infinite alternate;
+}
+
+
+.thisform
+{
+    background-image:url(blur02.jpeg);
+    background-repeat:none;
+    background-size:cover;
+    background-attachment: fixed; 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.part1,.submitbutton
+{ 
+  font-size:20px;
+  text-align: center;
+}
+
+input[type="radio"]
+{ 
+    margin-left:45%;
+}
+
+@keyframes image1 
+{
+  0% 
+  {
+    background-image: url("blur03.jpg");
+  }
+  50% 
+  {
+    background-image: url("blur03.jpg");
+  }
+  100% 
+  {
+    background-image: url("blur19.jpg");
+  }
+}
+
+.aboutbg
+{
+    background-image:url("blur03.jpg");
+    background-repeat:none;
+    background-size:cover;
+    background-attachment: fixed;
+    animation: image1 2.2s infinite alternate;
+}
+.about
+{
+    
+    color: white;
+    text-align: center;
+    font-family: 'Papyrus';
+}
+
+.transparentbg1
+{
+  background-color: rgba(7, 7, 7, 0.171);
+}
+
+.transparentbg2
+{
+  background-color: rgba(7, 7, 7, 0.3);
+}
+
+.transparentbg3
+{
+    background-color: rgba(7, 7, 7, 0.2);
+}
+
+.transparentbg4
+{
+    background-color: rgba(7, 7, 7, 0.4);
+}
+
+/*Navigation bar*/
+.navbar 
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.61);
+    position:fixed;
+    width:98.74%;
+}
+  
+.navbar a 
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+ /*change colour on hover*/
+ .navbar a:hover 
+  {
+    background-color: rgb(102, 102, 102);
+  }
+
+html 
+{
+    scroll-behavior: smooth;
+}
